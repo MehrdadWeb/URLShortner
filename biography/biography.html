@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--<html lang="en">  English -->
+<html dir="rtl" lang="fa">
+<head>
+    <meta name="author" content="Mehrdad Mohammadi" />
+    <title>Mehrdad Mohammadi</title>
+    <link rel="stylesheet" href="biography.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+    $(document).ready(function(){
+
+        $("button").click(function(){
+            var txt = $("#longlink").val();
+            $.post("http://mehrdadweb.ir/shortlink/onlyshortlink.php",{suggest: txt}, function(result){
+                $("#shortlink").html(result);
+
+            });
+            
+        });
+        $("#login_span").click(function(){
+        $("#login_dropdown_list").toggle(500);
+        $("#pointy").toggle(500);
+  });
+  
+});
+//$("#shortlink").html(result); "http://mehrdadweb.ir/shortlink/onlyshortlink.php"
+
+/*function sendlink(){
+    document.getElementById("longlink").value;
+}*/
+/////////myTimer()
+    var myTimer = setInterval(myClock, 1000);
+    function myClock() {
+        document.getElementById("demo").innerHTML = new Date().toLocaleTimeString();
+        
+    }
+    /*function showhide(){
+        var sh= document.getElementById('login_dropdown_list');
+        var sh1=document.getElementById('pointy');
+        if(sh.style.visibility=="hidden"){
+            sh.style.visibility='visible';
+            sh1.style.visibility="visible";
+        }
+        else{
+            sh.style.visibility='hidden';
+            sh1.style.visibility="hidden";
+    }
+           
+}*/    
+    </script>
+</head>
+
+<body>
+<header>
+    <div class="headerimg"><img src="/images/header2.png" alt="guitarimage"></div>
+    
+    <div class="clock"><p id="demo">Clock</p></div>
+
+    <div id="txtHint">
+    <div class="header_login">
+        <div class="login_container">
+            <span id="login_span" class="span-button" onclick="showhide()">ورود کاربر </span>  
+            <span class="span-button" style="position:relative;top:1px;"> | </span>
+            <span class="span-button"> 
+            <a href="http://mehrdadweb.ir/registration/register.php" style="color:white;text-decoration: none;">ثبـــت نام کاربر</a> 
+            </span>
+            
+            <div id="pointy" class="pointy" style="display: block;display: none;"></div>
+            
+            <!-- login box ورود کاربر -->
+            <div id="login_dropdown_list" class="login_dropdown_list" style="display:block;display: none;">
+                
+                <form action="http://www.mehrdadweb.ir/login/do_login.php" method="POST" name="frm" id="form0" >
+                    
+                    <div class="login-text-div"> 
+                        <input type="text" id="user_emial_login" name="user_emial_login" placeholder="   نام کاربری یا ایمیل" class="input_login" required>
+                    </div>
+                    
+                    <div class="login-text-div">
+                        <input type="password" id="pass_login" name="pass_login" placeholder="   کلمه عبور"  class="input_login" required>
+                    </div>
+                    
+                    <div class="login-sec-div"> 
+                    &nbsp; 
+                        <input type="submit" id="login_button" value="(Login)ورود" class="sub_login_btn" >
+                        &nbsp; 
+                        
+             <!--login box ورود کاربر-->           
+                        <input id="RememberCheckbox" name="RememberCheckbox" type="checkbox" value="RememberMe!" style="position:relative;top:2px;">  
+                        <span> بخاطر بسپار </span>
+                    </div>
+                        
+                    <div class="hr_shape"></div>
+                        
+                    <div class="forgot-link-div"> 
+                        <a style="text-decoration:none;" href="http://mehrdadweb.ir/registration/forget.php">
+                        <span tabindex="5"> آیا کلمه عبور را فراموش کردید ؟ </span></a>
+                    </div>
+                </form>    
+                
+            </div>
+        </div>
+    </div>
+    </div> 
+    <div class="headerslider-text">
+            <p id="demo"></p>
+    
+
+        <h1>مهرداد محمدی</h1>
+    </div>
+    
+
+</header>
+
+<nav>
+    
+    <ul>
+        <li><a  href="http://mehrdadweb.ir">صفحه اصلی</a></li>
+        <li class="dropdown">
+            <a onclick="showhide1()" href="javascript:void(0)" class="dropbtn">پروژه ها</a>
+            <div class="dropdown-content">
+                <a  href="/shortlink/shortlinker.html" target="_blank">پروژه کوتاه کردن لینک</a>
+                <a>پروژه 2</a>
+                <a>پروژه 3</a>
+                <a>پروژه 4</a>
+            </div>
+        </li>
+        <li><a href="/kiana/kiana.html" target="_blank">کیانا</a></li>
+        <li><a>بنیاد</a></li>
+        <li><a>دنیا</a></li>
+        <li><a href="/biography/biography.html">بیوگرافی</a></li>
+    </ul>
+    
+</nav>
+
+<main class="mainslider">
+
+    <div class="article">
+        <pre>
+            مشخصات فردی:
+            نام و نام خانوادگی: مهرداد محمدی گوهری
+            محل تولد: مشهد
+            سوابق تحصیلی:
+            اخذ مدرک کارشناسی دررشته مهندسی کامپیوتر-گرایش نرم افزار
+            در سال95 با معدل 18/15 از دانشگاه صنعتی سجاد 
+             سوابق آموزشی:
+            - پشتیبان علمی در کانون آموزشی فرهنگی قلمچی
+            - دستیار نظامت در دبیرستان پسرانه غیر دولتی نیکان
+            مهارت های رایانه ای:
+            1.مهارت های هفت گانه ICDL 
+            2.آشنایی با زبانهای برنامه نویسی و مهارت های (syntax):
+             
+                1.C,C++
+                2.Assembly
+                3.HTML
+                4.CSS
+                5.JavaScript
+                6.jQuery
+                7.PHP
+                8.SQL
+                9.XML
+                10.Python
+                11.Bootstrap 4
+                12.AJAX
+                13.XML
+                14.JSON
+            
+            3.آشنایی با پایگاه داده My SQL 
+            ,آشنایی با پایگاه داده Microsoft SQL Server
+            4.آشنایی با تکنیک AJAX ، فرمت JSON
+            5.طراحی  سایت کوتاه کننده لینک 
+            با قابلیت ثبت نام اعضا به آدرس : <a href="http://mehrdadweb.ir" style="text-decoration:none;">http://mehrdadweb.ir</a>
+            مهارت های هنری:
+            6. شاعر،  آهنگساز و نوازنده گیتار
+            سایر مهارت ها:
+            7.تسلط کامل بر زبان انگلیسی (خواندن، نوشتن، مکالمه)
+            8.فن بیان و بازاریابی و روابط عمومی
+            9.تهیه نامه های اداری
+            10.مدیریت زمان
+            11.روحیه ی کار گروهی
+
+        </pre>
+    </div>
+
+    <aside class="aside">
+
+        <ul>
+            <li></li>
+            <li>تبلیغات شما</li>
+            <li></li>
+        </ul>
+    </aside>
+
+</main>
+
+<footer>
+    <pre class="footer-text">
+        تماس با ما
+        Mobile No: 
+        Gmail:      mehrdadmmg2012@gmail.com
+        Telegram:  mohammadi@90
+        instagram: mehrdad.mohammadi7
+    </pre> 
+
+</footer>
+
+<script language="javascript" type="text/javascript" src="index.js">
+    /*
+    action="http://mehrdadweb.ir/shortlink/shortlink.php" target="_blank"  method="get"
+     target="_self"
+    onclick="sendform()"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    onclick="showhide()
+    onkeydown="sendlink()"
+    </script>
+</body>
+</html>

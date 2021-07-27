@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<heade>
+<body>
+/////////////بعد از ثبت نام
+<div class=""header_btns_online>
+                <a title="ورود به پنل کاربری جدید" class="user_online_link" href="//www.uplooder.net/user/mehrdad112">&nbsp;&nbsp; پنل کاربری &nbsp;&nbsp;</a>
+        		<a title="اطلاعات کاربر آنلاین" class="user_online_info"> &nbsp;$name; | &nbsp;$pass</a> 
+        		<img alt="کاربر آنلاین" src="user_ico.png" class="online_ico_style"/>
+        		<img alt="منوی کاربر" src="arrow-down.png" class="online_arrow_ico"/>
+        			<form action="https://mehrdadweb.ir/" method="POST" name="frm" id="frm">
+        				<div class="pointy" style="position:absolute;top:33px;"></div>
+        				<div class="setting_dropdown_style">
+            				<div onClick="javascript:window.location='https://mehrdadweb.ir/$name'"> 
+                				<img alt="منوی تنظیمات و خروج" src="setting_ico.png"/>
+                				<span style="position:relative;top:2px;"> پنل کاربری </span>
+                			</div>
+                			
+                			<div class="hr_shape" style="height:1px;"></div>
+                			
+                			<div id="signout">
+                			    <img alt="خروج" src="exit_ico.png"/>
+                			    <span> خروج </span> 
+                			    <input type="checkbox" name="SignoutCheck" id="SignoutCheck" value="SignOut!" style="display:none;"> 
+                			</div>
+            			</div>
+        			</form>
+        	   </div>;
+////////////
+
+<input type="password" id="password" name="password" placeholder="   کلمه عبور" tabindex="2" onkeypress="keysubmit(event)" class="input_login" >
+
+	function keysubmit(a){
+	    return 13!=a.keyCode||void document.getElementById("frm").submit()
+	    
+	}
+	function CheckUsername(input){
+	    if ( $(input).val().trim() == "" ){
+        $("#username_alert").html( "نام کاربری را وارد کنید." );
+        $("#username_check").css("background-image","url('input-cross.png')");
+        }else{
+            $.ajax({
+            url:'https://mehrdadweb.ir/register_result.php',
+            type:'POST',
+            success: function (res) {
+               if ( res.trim() == 'structure_error' ){
+                  $("#username_alert").html( "نام کاربری باید فقط شامل تمامی حروف انگلیسی و اعداد باشد." );
+                  $("#username_check").css("background-image","url('input-cross.png')");
+                  $('#username_check').attr("data-status","0");
+               }else if ( res.trim() == 'username_exists' ){
+                  $("#username_alert").html( "نام کاربری وارد شده موجود می باشد." );   
+                  $("#username_check").css("background-image","url('input-cross.png')");
+                  $('#username_check').attr("data-status","0");
+               }else{
+                  $("#username_check").css("background-image","url('input-cross.png')");
+                  $("#username_alert").html( "" );
+                  $('#username_check').attr("data-status","1");
+               }
+            },
+            error: function (res){
+                  alert('error');
+            },
+            async:false,
+            data: { type: "check" , checktype : "username" , username : $(input).val() }            
+            
+      });
+   }
+}
+///
+function CheckEmail(input){
+   if ( $(input).val().trim() == "" ){
+      $("#email_alert").html( "ایمیل خود را وارد کنید." );
+      $("#email_check").css("background-image","url('input-cross.png')");
+   }else{
+            $.ajax({
+                  url:'https://mehrdadweb.ir/register_result.php',
+                  type:'POST',
+                  success: function (res) {
+
+                     if ( res.trim() == 'structure_error' ){
+                        $("#email_alert").html( "ساختار ایمیل شما قابل قبول نیست." );
+                        $("#email_check").css("background-image","url('input-cross.png')");
+                        $('#email_check').attr("data-status","0");
+                     }else if ( res.trim() == 'misspell' ){
+                        $("#email_alert").html( "ایمیل را بررسی کنید مثلا بجای gmail.com اشتباها gmal.com وارد نکرده باشید." );
+                        $("#email_check").css("background-image","url('input-cross.png')");
+                        $('#email_check').attr("data-status","0");
+                     }else if ( res.trim() == 'email_exists' ){
+                        $("#email_alert").html( "ایمیل وارد شده موجود می باشد." );
+                        $("#email_check").css("background-image","url('input-cross.png')");
+                        $('#email_check').attr("data-status","0");
+                     }else{
+                        $("#email_check").css("background-image","url('input-cross.png')");
+                        $("#email_alert").html( "" );
+                        $('#email_check').attr("data-status","1");
+                     }    
+                  },
+                  error: function (res){
+                        alert('error');
+                  },
+                  async:false,
+                  data: { type: "check" , checktype : "email" , email : $(input).val() }            
+                  
+            });
+    
+   }
+   
+}
+///
+function CheckPassword(input){
+   
+   if ( $(input).val().trim() == "" ){
+      $("#password_alert").html( "کلمه عبور انتخابی خود را وارد کنید." );
+      $("#password_check").css("background-image","url('input-cross.png')");
+      $('#password_check').attr("data-status","0");
+   }else if ( $(input).val().trim().length < 6 ){
+      $("#password_alert").html( "حداقل طول کلمه عبور باید ۶ حرف باشد." );
+      $("#password_check").css("background-image","url('input-cross.png')");
+      $('#password_check').attr("data-status","0");    
+   }else{
+      $("#password_check").css("background-image","url('input-cross.png')");
+      $("#password_alert").html("");
+      $('#password_check').attr("data-status","1");
+   }
+   
+}
+///
+function RegisterMe(){
+  
+  CheckUsername("#usr");
+  CheckEmail("#email");
+  CheckPassword("#passwrd");
+
+   if ( $('#password_check').attr("data-status") == "1" && $('#username_check').attr("data-status") == "1" && $('#email_check').attr("data-status") == "1"  ){
+      $.ajax({
+               url:'https://mehrdadweb.ir/register_result.php',//./register.php
+               type:'POST',
+               success: function (res) {
+                  $("#header_notice").empty();
+                  $("#header_notice").html(res);
+               },
+               error: function (res){
+                     alert('error');
+               },
+               data: { type: "register" , username : $("#usr").val().trim() , email : $("#email").val().trim() , password : $("#passwrd").val().trim() , code : $("#code").val().trim() }            
+               
+      });
+   }
+}
+///
+function keysubmit(a){
+    return 13!=a.keyCode||void document.getElementById("frm").submit()}
+    
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+	   <form name="frminfo" action="https://mehrdadweb.ir/register_result.php" method="POST" target="_blank">
+		
+			<br>
+			<div id="header_notice">
+				<h1 class="register_pg_notice">ثبت نام کنید و خاص شوید</h1><br>
+			</div>
+			<br>
+			<div class="register-main-container">
+				<div class="One_dvinput" style="height:380px" dir="rtl">
+				      
+					 <h2 style="font-size:100%;color:red" dir="rtl">  </h2>
+					 
+					 <input name="usr" type="text" class="register-input" id="usr" onblur="CheckUsername(this)" placeholder="نــــام کاربری">
+					 <div name="username_check" data-status="0" id="username_check" class="input-check" style="background-image: url(&quot;input-cross.png&quot;);"></div>
+					 <br>
+					 <span id="username_alert" class="input-problem-alert">نام کاربری را وارد کنید.</span>
+					 <br>
+					 
+					 <input name="email" type="text" class="register-input" id="email" onblur="CheckEmail(this)" placeholder="ایـمیل ( مثال: example@yahoo.com )">
+					 <div name="email_check" data-status="0" id="email_check" class="input-check" style="background-image: url(&quot;input-cross.png&quot;);"></div>
+					 <br>
+					 <span id="email_alert" class="input-problem-alert">ایمیل خود را وارد کنید.</span>
+					 <br>
+					 
+					 <input name="passwrd" type="password" id="passwrd" title="کلمه عبور را وارد کنید!" onblur="CheckPassword(this)" class="register-input" placeholder="کـــــلمه عبـــور">
+					 <div name="password_check" data-status="0" id="password_check" class="input-check" style="background-image: url(&quot;input-cross.png&quot;);"></div>
+					 <br>
+					 <span id="password_alert" class="input-problem-alert">کلمه عبور انتخابی خود را وارد کنید.</span>
+					 <br>
+					 
+					 <h2 style="font-size:80%;color:#7E587E"> کد امنیتی زیر را وارد کنید: </h2>
+					 
+					 <center>
+					   <div style="width:220px;height:60px;">
+						<input type="text" name="code" id="code" class="cdinput" dir="ltr">
+						<div style="width:20px;height:46px;">
+							<img name="captcha" src="https://mehrdadweb.ir/captcha1.php?random=12000">
+							<img src="refresh.png" title="refresh" style="cursor:pointer" onclick="captcha.src='https://mehrdadweb.ir/captcha1.php?random=' + Math.floor(Math.random()*10000);">
+						</div>	
+					  </div>
+					  </center>
+					 <input type="button" onkeydown="if (event.keyCode == 13) document.getElementById('register').click()" id="register" name="register" value="ثبــت نـام" class="register_button" onclick="RegisterMe();">
+				 
+					
+				    </div>
+				<div class="two_dv-register-info">
+					<br>
+					<table>
+						<tbody><tr>
+							<td><img src="checkmark.png"</td>
+							<td><p> ایمیل خود را بدون www وارد کنید.</p></td>
+						</tr>
+						<tr>
+							<td><img src="checkmark.png"></td>
+							<td><p> حداکثر طول نام کاربری ۱۵ حرف می باشد.</p></td>
+						</tr>
+						<tr>
+							<td><img src="checkmark.png"></td>
+							<td><p>نام کاربری فقط میتواند از بین حروف انگلیسی و اعداد انگلیسی انتخاب شود.</p></td>
+						</tr>
+						<tr>
+							<td><img src="checkmark.png"></td>
+							<td><p>بعد از انجام موفقیت آمیز ثبت نام ایمیلی حاوی لینک فعال سازی برای شما ارسال می شود. با مراجعه به ایمیل خود و باز کردن لینک مربوطه حساب کاربری خود را فعال کنید.ممکن است ایمیل به قسمت spam یا junk رفته باشد.</p></td>
+						</tr>
+						<tr>
+							<td><img src="checkmark.png"></td>
+							<td><p>برای اینکه ایمیل فعال سازی مجدد برای شما ارسال شود به 
+							<a href="resend.php" target="_blank">
+							    اینجا
+							    </a> مراجعه کنید.</p></td>
+						</tr>
+						<tr>
+							<td><img src="checkmark.png"></td>
+							<td><p>انجام ثبت نام به این منظور است که شما تمامی <a href="/rules.php" style="text-decoration:none;color:blue">قوانین</a> سایت را پذیرفته اید.</p></td>
+						</tr>
+
+					</tbody></table>
+										
+					
+				</div>
+			</div>
+			<br><br>
+			<br><br>
+			<br><br>
+			<br>
+			
+				
+		
+	   </form>
+</body>	   
+</html>	   

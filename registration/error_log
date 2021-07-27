@@ -1,0 +1,14 @@
+[17-Aug-2020 13:13:51 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 117
+[17-Aug-2020 13:14:49 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 117
+[17-Aug-2020 13:14:55 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 117
+[17-Aug-2020 13:26:28 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 116
+[19-Aug-2020 19:45:57 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 118
+[19-Aug-2020 19:47:05 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 118
+[19-Aug-2020 19:47:05 Asia/Tehran] PHP Fatal error:  Call to undefined function alert() in /home/mehrdadw/public_html/registration/register.php on line 126
+[19-Dec-2020 19:00:27 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 116
+[19-Dec-2020 19:07:47 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/registration/register.php on line 118
+[04-Apr-2021 17:29:38 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')' in /home/mehrdadw/public_html/registration/register.php on line 56
+[05-Apr-2021 13:20:41 Asia/Tehran] PHP Warning:  require(home.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/registration/register.php on line 86
+[05-Apr-2021 13:20:41 Asia/Tehran] PHP Warning:  require(home.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/registration/register.php on line 86
+[05-Apr-2021 13:20:41 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'home.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/registration/register.php on line 86
+[05-Apr-2021 13:45:57 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'rtl' (T_STRING) in /home/mehrdadw/public_html/registration/register.php on line 118

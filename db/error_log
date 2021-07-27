@@ -1,0 +1,92 @@
+[14-Mar-2021 12:32:33 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:33 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:33 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:34 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:34 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:34 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:35 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:35 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:35 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:37 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:37 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:37 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:44 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:44 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:44 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:46 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:46 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:32:46 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:34:39 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:34:39 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:34:39 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:36 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:36 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:36 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:38 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:39 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:39 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:35:39 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:36:07 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:36:07 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:36:07 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:39:01 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:39:01 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:39:01 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:49:09 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:49:09 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:49:09 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:49:56 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:49:56 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:49:56 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:55:15 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:55:15 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:55:15 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:55:20 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:55:20 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:55:20 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:56:22 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:56:22 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:56:22 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:58:30 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:58:30 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:58:30 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 4
+[14-Mar-2021 12:59:04 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 12:59:04 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 12:59:04 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 12:59:10 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 12:59:10 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 12:59:10 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:00:20 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:00:20 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:00:20 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:00:23 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:00:23 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:00:23 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:07:04 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:07:04 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:07:04 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:10:15 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:10:15 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:10:15 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:10:35 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:10:35 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:10:35 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:11:07 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:11:07 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 13:11:07 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 5
+[14-Mar-2021 14:48:21 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 41
+[14-Mar-2021 14:48:21 Asia/Tehran] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/mehrdadw/public_html/db/deletefromdb.php on line 41
+[14-Mar-2021 14:48:21 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mehrdadw/public_html/db/deletefromdb.php on line 41
+[14-Mar-2021 14:56:29 Asia/Tehran] PHP Warning:  mysqli::query(): Empty query in /home/mehrdadw/public_html/db/deletefromdb.php on line 17
+[14-Mar-2021 14:56:48 Asia/Tehran] PHP Warning:  mysqli::query(): Empty query in /home/mehrdadw/public_html/db/deletefromdb.php on line 17
+[14-Mar-2021 14:56:58 Asia/Tehran] PHP Warning:  mysqli::query(): Empty query in /home/mehrdadw/public_html/db/deletefromdb.php on line 17
+[16-Mar-2021 12:22:09 Asia/Tehran] PHP Warning:  mysqli::query(): Empty query in /home/mehrdadw/public_html/db/deletefromdb.php on line 26
+[16-Mar-2021 12:35:39 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/mehrdadw/public_html/db/deletefromdb.php on line 117

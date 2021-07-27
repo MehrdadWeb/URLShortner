@@ -1,0 +1,11 @@
+#tabdile https be http
+RewriteEngine On
+RewriteCond %{SERVER_PORT} ^443$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#redirect az shortlink be url(link)
+#$1 is equal ^([A-Za-z0-9]+)$ 
+#$_GET['id']=$1=^([A-Za-z0-9]+)$
+RewriteEngine On
+RewriteRule ^([A-Za-z0-9]+)$ /shortlink/shortlinktolonglink.php?id=$1 [r=301,nc,L,QSA]
+#RewriteEngine On
+#RewriteRule ^([A-Za-z0-9]+)$ /shortlink/shortlink.php?id=$1 [r=301,nc,L,QSA]

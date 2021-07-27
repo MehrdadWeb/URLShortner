@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta name="author" content="Mehrdad Mohammadi"/>
+    <title>Mehrdad Mohammadi</title>
+    
+    <link rel="stylesheet" href="http://mehrdadweb.ir/css/shortlinker.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.1.js"></script>
+    <script language="javascript" type="text/javascript" src="http://mehrdadweb.ir/registration/register.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+
+    $(document).ready(function(){
+        $("#login_span").click(function(){
+        $("#login_dropdown_list").toggle(500);
+        $("#pointy").toggle(500);
+            
+        });
+        $("button").click(function(){
+            var txt = $("#longlink").val();
+            $.post("http://mehrdadweb.ir/shortlink/shortlink.php",{suggest: txt}, function(result){
+                    $("#shortlink").html(result);
+            });
+        });
+        /*1*//*$("#login_button").click(function(){
+            
+            $("#header_login").hide();
+            //$("#header_btns_online").css({"background-color": "yellow"});
+            //$("#header_btns_online").html("Hello <b>world</b>!");
+             var txt = $("#user_emial_login").val().trim();
+             //alert($("#user_emial_login").val().trim());
+             $.post("http://mehrdadweb.ir/login/dologin.php",{suggest: txt}, function(result){
+                
+                $("#header_btns_online").html(result);
+                $("#header_btns_online").css("color", "red");
+              });
+
+        });*/
+        /*1==2*/
+        /*2 ورود کاربر*/
+        $("#login_button").click(function(){
+            if($("#user_emial_login").val().trim() == "" ){
+                $("#user_emial_login").css("background-color", "red");
+                $('#user_emial_login').attr("placeholder","لطفا ایمیل را وارد کنید.");
+            }else if($("#pass_login").val().trim() == ""){
+                $("#pass_login").css("background-color", "red");
+                $('#pass_login').attr("placeholder","لطفا پسورد را وارد کنید.");
+            }else if($("#pass_login").val().trim().length < 6){
+                $("#pass_login").val('');
+                $("#pass_login").css("background-color", "red");
+                $("#pass_login").attr("placeholder","حداقل طول کلمه عبور باید ۶ حرف باشد." );
+            }else{
+                $.ajax({
+                    url:'http://mehrdadweb.ir/login/dologin.php',
+                    type:'POST',
+                    success: function (res){
+                        if(res.trim() == ""){
+                            alert('!!! wrong password 3 times and your access denied for 1 hour');
+                            $("#header_btns_online").empty(res);
+                           // $("#login_dropdown_list").hide();
+                        }else{
+                            $("#header_login").hide();
+                            $("#header_btns_online").html(res);
+                            $("#header_btns_online").css("color", "red");
+                        }
+                        
+
+                    },
+                    error: function (res){
+                      alert('no no');
+                      $("#demo2").html( "bad" );
+                    },
+                    data: {type: "check",user_emial_login:$("#user_emial_login").val().trim() , pass_login:$("#pass_login").val().trim() , RememberCheckbox:$("#RememberCheckbox").val().trim()}            
+               
+                  });
+            }
+           
+        });
+ 
+       //$(window).load(function(){
+                   //alert("Goodbye!");
+                    
+                    $.ajax({
+                       url:'http://mehrdadweb.ir/home.php',
+                       type:'POST',
+                       success: function (res) {
+                           if($("#header_btns_online").html(res)){
+                              //$("#header_login").hide(); 
+                           }
+                        //$("#header_login").hide();
+                        $("#header_btns_online").html(res);
+                        $("#header_btns_online").css("color", "red");
+                       },
+                       error: function (res){
+                          alert('no no');
+                          $("#demo2").html( "bad" );
+                       },
+                       //data: {type: "check",user_emial_login:$("#user_emial_login").val().trim() , pass_login:$("#pass_login").val().trim() , RememberCheckbox:$("#RememberCheckbox").val().trim()}            
+                       
+                          });  
+                           
+        //});
+});
+/////////myTimer()
+    var myTimer = setInterval(myClock, 1000);
+    function myClock() {
+        document.getElementById("demo").innerHTML = new Date().toLocaleTimeString();
+    }
+    </script>
+</head>
+<body>
+<!-- ====== Header ======  -->
+<section id="home" class="header container-fliud"  data-scroll-index="0" style="background-image: url(/images/header3.png); background-position: 0px 0px;margin-bottom:0;" data-stellar-background-ratio="0.8">
+    
+        <div class="row  pl-sm-5 pt-3 pt-sm-5">
+            <!-- ====== first col====== -->
+            <div class="col-10 pl-sm-5 ">
+                <div id="demo2" style="display:block; color: blue;"></div>
+                <div id="txtHint" class="txtHint">
+                <!-- ====== نمایش اطلاعات کاربری که ثبت نام کرده و ورودش مجاز است====== -->    
+                <div class="header_btns_online" id="header_btns_online" ></div>
+                <!-- ====== قسمت ورود اطلاعات کاربری + ثبت نام + فراموشی رمز عبور + یادآوری====== -->
+                <div class="header_login" id="header_login">
+                <div class="login_container">
+                    <span class="span-button" id="login_span" onclick="showhide()">ورود کاربر </span>  
+                    <span class="span-button" style="position:relative;top:1px;"> | </span>
+                    <span class="span-button"><a href="http://mehrdadweb.ir/registration/register.php" style="color:white;text-decoration: none;">ثبـــت نام کاربر</a></span>
+                    
+                    <div id="pointy" class="pointy" style="display: block;display: none;"></div>
+                    
+                    <!-- <form action="http://www.mehrdadweb.ir/login/dologin.php" method="POST" name="frm" id="form0" >login box ورود کاربر                 -->
+                    <div id="login_dropdown_list" class="login_dropdown_list" style="display:block;display: none;">
+                        <div class="login-text-div"> 
+                            <input type="text" id="user_emial_login" name="user_emial_login" placeholder="نام کاربری یا ایمیل" class="input_login" required>
+                        </div>
+                            
+                        <div class="login-text-div">
+                            <input type="password" id="pass_login" name="pass_login" placeholder="کلمه عبور"  class="input_login" required>
+                        </div>
+                            
+                        <div class="login-sec-div"> 
+                            &nbsp; 
+                                
+                            <input type="submit" id="login_button" value="login" class="sub_login_btn" >
+                            &nbsp; 
+                                
+                     <!-- </form>login box ورود کاربر-->           
+                            <input type="checkbox" id="RememberCheckbox" name="RememberCheckbox" value="RememberMe" style="position:relative;top:2px;">
+                            <span> بخاطر بسپار </span>
+                        </div>
+                                
+                        <div class="hr_shape"></div>
+                                
+                        <div class="forgot-link-div"> 
+                            <a style="text-decoration:none;" href="http://mehrdadweb.ir/registration/forget.php">
+                            <span tabindex="5"> آیا کلمه عبور را فراموش کردید ؟ </span></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                </div> 
+            </div>
+            <!-- ====== second col ====== -->        
+            <div class="col-2  align-top pl-2">
+                <div class="clock"><p id="demo">Clock</p></div>
+            </div>
+        </div>
+</section>
+<!-- ====== End Header ======  -->
+<!-- ====== Navgition ======  -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="http://mehrdadweb.ir/shortlink/shortlinker.html">Mehrdad <i class="fas fa-cut"></i></a> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/biography/biography.html" target="_blank">بیوگرافی</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">مهارت ها</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">پروژه ها</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/shortlink/shortlinker.html" target="_blank">پروژه کوتاه کردن لینک</a></li>
+                    <li><a class="dropdown-item" href="#">پروژه 2</a></li>
+                    <li><a class="dropdown-item" href="#">پروژه 3</a></li>
+                </ul>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="http://mehrdadweb.ir">صفحه اصلی</a>
+            </li>
+        </ul>
+     </div> 
+</nav>
+<!-- ====== End Navgition ======  -->
+<!-- ====== main ====== -->
+<div class="container-fluid main" >
+    <div class="row main">
+        <div class="col-sm-9 col1color d-flex flex-column justify-content-center" >
+            <main class="align-self-center">
+                <p class="text-dark ">Enter your URL:
+                    <input type="text" id="longlink" name="longlink" value="" placeholder="Enter your link here" required >
+                </p>
+                <button class="text-dark ">Short the link <i class="fas fa-cut"></i></button>
+                <br><br>
+                <div id="shortlink" class="showshortlink text-dark"></div>  
+            </main>
+        </div>
+        <div class="col-sm-3 col2color d-flex flex-column justify-content-center">
+            <aside class="align-self-center">
+                <ul>
+                <li></li>
+                <li>تبلیغات شما</li>
+                <li></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>    
+
+<!-- ====== endmain ======  -->
+<!-- ====== footer ======  -->
+<div class="container-fluid footercl footer text-primary"  data-scroll-index="0" style="background-image: url(/images/header.png); background-position: 0px 0px;margin-bottom:0;" data-stellar-background-ratio="0.8">
+    <div class="row text-center pt-md-5 mt-md-5" >
+        <div class="col">Contact us</div>
+    </div>
+    <div class="row text-center pt-md-5 mt-md-5">
+        <div class="col-md-3">
+            <div class="item">
+                <span class="icon">
+				    <i class="fa fa-phone" aria-hidden="true"></i>
+				</span>
+				<h6>Phone</h6>
+				<p>+98 9390182439</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="item">
+				<span class="icon">
+				    <i class="fa fa-envelope" aria-hidden="true"></i>
+				</span>
+				<h6>Gmail</h6>
+				<a class="text-decoration-none" href="#" target="_blank">mehrdadmmg2012@gmail.com</a>
+			</div>
+        </div>
+        <div class="col-md-3">
+            <div class="item">
+				<span class="icon">
+				    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+				</span>
+				<h6>Telegram</h6>
+				<a class="text-decoration-none" href="https://t.me/mohammadi90" target="_blank">@mohammadi90</a>
+			</div>
+        </div>
+        <div class="col-md-3">
+            <div class="item">
+                <span class="icon">
+				    <i class="fab fa-instagram" aria-hidden="true"></i>
+				</span>
+                <h6>Instagram</h6>
+				<a class="text-decoration-none" href="https://www.instagram.com/mehrdad.mohammadi7/" target="_blank">mehrdad.mohammadi7</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- ====== endfooter ====== -->
+<script language="javascript" type="text/javascript" src="index.js">
+</script>
+</body>
+</html>

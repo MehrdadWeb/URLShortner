@@ -1,0 +1,18 @@
+@font-face{
+	font-family: 'Droid Arabic Naskh';
+	
+	font-weight: 200;
+  src: url('/font/DroidNaskh-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/font/DroidNaskh-Regular.woff') format('woff'),
+       url('/font/DroidNaskh-Regular.ttf') format('truetype');
+
+}
+
+body{
+	font-family: 'Droid Arabic Naskh';
+}
+    .register_pg_notice{
+    	font-size: 17px !important; 	
+    	width:100% !important;
+    	text-align:center;
+    }

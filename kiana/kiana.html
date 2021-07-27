@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--<html lang="en">  English -->
+<html dir="rtl" lang="fa">
+<head>
+
+    <meta name="author" content="Mehrdad Mohammadi feat saeed salehi" />
+    <title>newswebsite-2020/07/25--13990504</title>
+    <link rel="stylesheet" href="/kiana/kianastyles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery-3.4.1.min.js"></script>
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+        function sendForm(){
+            $.ajax({
+                type: "POST",
+                url: "E:\\school\\Web Develop\\Projects\\2.php.mesut\\shortlink.php",
+                data: jQuery("#my_form").serialize(),
+                cache: false,
+                success:  function(data){
+                    /* alert(data); if json obj. alert(JSON.stringify(data));*/
+                }
+            });
+
+        }
+    </script>
+</head>
+
+<body>
+
+<header>
+    <div class="slider">
+        <h1>پنل مدیریت</h1>
+    </div>
+
+</header>
+
+<nav>
+
+    <a class="nav-link" href="http://mehrdadweb.ir">صفحه اصلی</a>
+    <a class="nav-link">پروژه ها</a>
+    <a class="nav-link" href="http://mehrdadweb.ir/kiana.html">کیانا</a>
+    <a class="nav-link">بنیاد</a>
+    <a class="nav-link">دنیا</a>
+
+</nav>
+
+<main class="slider2">
+
+    <div class="article">
+        <img class="picture" src="/images/kiki.png" width="250px"  height="250px">
+    </div>
+
+    <aside class="aside">
+        <ul>
+            <li>محل تبلیغات شما</li>
+            <li>ازدواج گلزار و مهناز افشار</li>
+        </ul>
+    </aside>
+
+</main>
+
+<footer> تماس با ما</footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+[23-Nov-2020 21:04:29 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/mehrdadw/public_html/shortlink/shortlink.php on line 57
+[23-Nov-2020 21:04:34 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/mehrdadw/public_html/shortlink/shortlink.php on line 57
+[23-Nov-2020 21:04:38 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/mehrdadw/public_html/shortlink/shortlink.php on line 57
+[26-Nov-2020 12:57:09 Asia/Tehran] PHP Fatal error:  Call to undefined function ucase() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 15
+[26-Nov-2020 13:13:15 Asia/Tehran] PHP Fatal error:  Call to undefined function ucase() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 15
+[26-Nov-2020 13:13:20 Asia/Tehran] PHP Fatal error:  Call to undefined function ucase() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 15
+[28-Nov-2020 01:11:36 Asia/Tehran] PHP Fatal error:  Call to undefined function sendlink() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 30
+[28-Nov-2020 01:12:35 Asia/Tehran] PHP Fatal error:  Call to undefined function sendlink() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 30
+[28-Nov-2020 01:23:09 Asia/Tehran] PHP Fatal error:  Call to undefined function sendlink() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 38
+[28-Nov-2020 01:23:17 Asia/Tehran] PHP Fatal error:  Call to undefined function sendlink() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 38
+[29-Nov-2020 10:19:03 Asia/Tehran] PHP Fatal error:  Call to undefined function alert() in /home/mehrdadw/public_html/shortlink/shortlink.php on line 4
+[29-Nov-2020 10:24:26 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 48
+[29-Nov-2020 11:33:10 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 48
+[29-Nov-2020 11:34:12 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 48
+[29-Nov-2020 11:34:21 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 48
+[29-Nov-2020 11:34:25 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 48
+[29-Nov-2020 11:50:05 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 58
+[12-Mar-2021 10:26:44 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:44 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:44 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:45 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:46 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:47 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:48 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:49 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
+[12-Mar-2021 10:26:50 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 52
+[12-Mar-2021 10:26:50 Asia/Tehran] PHP Warning:  main(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 56
+[12-Mar-2021 10:26:50 Asia/Tehran] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mehrdadw/public_html/shortlink/shortlink.php on line 59
